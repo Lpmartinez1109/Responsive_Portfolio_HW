@@ -12,21 +12,20 @@
 </head>
 
 <body style="background-image: url(Images/dark-honeycomb.png);">
-  <nav class="navbar" style="background: dimgrey;">
-    <a class="navbar-brand" style="background: red;">Luis Martinez</a>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="container" style="background-color: dimgray;">
+  <div class="container-fluid myNav">
+      <div class="row">
+          <div class="col-sm-4 col-md-4 text-center" style="color: white; background-color: red;">Luis Martinez</div>
+          <div class="col-md-4"></div>
+          <div class="col-sm-12 col-md-4 text-center">
+              <div class="row">
+                  <div class="col-sm-4 col-md-4"><a class="nav-link active" href="index.html" style="color: white;">About</a></div>
+                  <div class="col-sm-4 col-md-4"><a class="nav-link" href="portfolio.html" style="color: white;">Portfolio</a></div>
+                  <div class="col-sm-4 col-md-4"><a class="nav-link" href="contact.html" style="color: white;">Contact</a></div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container" style="background-color: dimgray; margin-top: 80px; padding-top: 15px; padding-bottom: 15px;">
   <form>
       <div class="form-group">
           <label for="exampleFormControlInput1">Name</label>
@@ -37,10 +36,10 @@
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <label for="exampleFormControlTextarea1">Enter Messsage: </label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" style="background-color: red; border-color: red;">Submit</button>
     </form>
   </div>
   <div class="footer" style="border-style: solid; border-width: 10px 0px 0px 0px; border-color: red;">Copyright ©
