@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <title>Portfolio</title>
+  <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+  <title>Portfolio</title>
 </head>
+
 <body style="background-image: url(Images/dark-honeycomb.png);">
-    <nav class="navbar" style="background-color: dimgray;">
-        <a class="navbar-brand" style="background: red;">Luis Martinez</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-      </nav>
-      <div class="footer" style="border-style: solid; border-width: 10px 0px 0px 0px; border-color: red;">Copyright ©
+  <div class="container-fluid myNav">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-2 text-center" style="color: white; background-color: red; font-size: 20px;">Luis Martinez
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-sm-12 col-md-4 text-center">
+        <div class="row">
+          <div class="col-sm-4 col-md-4"><a class="nav-link active" href="index.html" style="color: white;">About</a>
+          </div>
+          <div class="col-sm-4 col-md-4"><a class="nav-link" href="portfolio.html" style="color: white;">Portfolio</a>
+          </div>
+          <div class="col-sm-4 col-md-4"><a class="nav-link" href="contact.html" style="color: white;">Contact</a></div>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8" style="background-color: white; top: 50px; padding-bottom: 15px; padding-top: 15px;">
+        <h1 style="color:black; font-size: medium;">Portfolio</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="Images/hangman_game.jpg" alt="Picture of Hangman Game" style="width: 150px; height: 150px;">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="Images/star_wars_RPG.jpg" alt="Picture Of RPG game" style="width: 150px;height: 150px;">
+          </div>
+          <div class="col-md-4">
+            <img src="Images/trivia-game.jpg" alt="Picture of Triva Game" style="width: 150px; height: 150px;">
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <img src="Images/rutgers_widget.jpg" alt="Picture of Rutgers Info Widget"
+                style="width: 150px; height: 150px; margin: 10px 0px 0px 10px;">
+            </div>
+            <div class="col-md-4">
+              <img src="Images/rock_paper_scissors.jpg" alt="Picture of Rock, Paper, Scissors"
+                style="width: 150px; height: 150px; margin-top: 10px; margin-left: 16px;">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+  <div class="footer" style="border-style: solid; border-width: 10px 0px 0px 0px; border-color: red;">Copyright ©
+  </div>
 </body>
+
 </html>
